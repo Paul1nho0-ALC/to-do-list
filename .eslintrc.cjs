@@ -16,5 +16,6 @@ module.exports = {
   plugins: ['react-refresh', 'prettier', 'react', 'react-hooks'],
   rules: {
     'react/react-in-jsx-scope': 'off',
+    'prettier/prettier': ['error', { endOfLine: 'auto' }],
   },
 };
