@@ -3,8 +3,8 @@ import { CheckIcon } from '../../icons/Check-Icon';
 import P from 'prop-types';
 
 const MyCheckbox = styled.div`
-    width: 24px;
-    height: 24px;
+    min-width: 24px;
+    min-height: 24px;
     display: flex;
     align-items: center;
     justify-content: center;
