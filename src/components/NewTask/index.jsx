@@ -1,5 +1,9 @@
 import styled from 'styled-components';
 import { AddIcon } from '../../icons/Add-Icon';
+import { useLocalStorage } from '../../hooks/useLocalStorage';
+import { useRef, useState } from 'react';
+
+import P from 'prop-types';
 
 const Container = styled.div`
   width: 100%;
@@ -36,13 +40,35 @@ const AddButton = styled.button`
   }
 `;
 
-export const NewTask = () => {
+export const NewTask = ({ update }) => {
+  //eslint-disable-next-line
+  const [ setItem, getItems ] = useLocalStorage();
+  const [value, setValue] = useState('');
+
+  const inputRef = useRef();
+
   return (
     <Container>
-      <TextInput onClick={() => console.log('teste')} />
-      <AddButton>
+      <TextInput
+        ref={inputRef}
+        onChange={(e) => {
+          setValue(e.target.value);
+        }}
+      />
+      <AddButton
+        onClick={() => {
+          setItem(value);
+          inputRef.current.value = '';
+          setValue('');
+          update(getItems());
+        }}
+      >
         <AddIcon />
       </AddButton>
     </Container>
   );
+};
+
+NewTask.propTypes = {
+  update: P.func,
 };

@@ -2,6 +2,14 @@
     background-color: var(--secondary-color);
 }
 
+.complete p {
+    color: #ffffff
+}
+
 .uncomplete{
     background-color: var(--background-color);
+}
+
+.uncomplete p{
+    color: #202020;
 }
