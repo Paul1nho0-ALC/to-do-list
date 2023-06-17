@@ -29,6 +29,11 @@ const AddButton = styled.button`
   border-radius: 50%;
   background-color: var(--primary-color);
   cursor: pointer;
+  transition: all ease-in .3s;
+
+  &:hover{
+    background-color: var(--secondary-color);
+  }
 `;
 
 export const NewTask = () => {

@@ -26,6 +26,7 @@ const DeleteButton = styled.button`
     background: transparent;
     width: 24px;
     height: 24px;
+    cursor: pointer;
   `;
 
 export const ToDoItem = () => {
