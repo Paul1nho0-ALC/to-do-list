@@ -1,3 +1,14 @@
+import { useEffect } from 'react';
+import WebFont from 'webfontloader';
+import { Header } from './components/Header';
+
 export const App = () => {
-  return <div></div>;
+  useEffect(() => {
+    WebFont.load({
+      google: {
+        families: ['Montserrat:400,700'],
+      },
+    });
+  }, []);
+  return <Header />;
 };

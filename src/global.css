@@ -1,13 +1,14 @@
-#root {
-  --background-color : #f2f2f2
-  --primary-color : #5C8D89
-  --secondary-color : #74B49B
-  --tertiary-color : #f2f2f2
-  --gray-color : #e1e1e1
+:root {
+  --background-color : #f2f2f2;
+  --primary-color : #5C8D89;
+  --secondary-color : #74B49B;
+  --tertiary-color : #f2f2f2;
+  --gray-color : #e1e1e1;
 }
 
 *{
   padding: 0;
   margin: 0;
   box-sizing: border-box;
+  font-family: 'Montserrat';
 }
