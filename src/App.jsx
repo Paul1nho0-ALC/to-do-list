@@ -5,6 +5,8 @@ import { ToDoContainer } from './components/ToDoContainer';
 import { NewTask } from './components/NewTask';
 
 import styled from 'styled-components';
+import { ToDoContent } from './components/ToDoContent';
+import { ToDoItem } from './components/ToDoItem';
 
 const Container = styled.div`
 background-color: var(--background-color) ;
@@ -23,8 +25,22 @@ export const App = () => {
   return (
     <Container>
       <Header />
+
       <ToDoContainer>
         <NewTask />
+        <ToDoContent>
+          <ToDoItem />
+          <ToDoItem />
+          <ToDoItem />
+          <ToDoItem />
+          <ToDoItem />
+          <ToDoItem />
+          <ToDoItem />
+          <ToDoItem />
+          <ToDoItem />
+          <ToDoItem />
+          <ToDoItem />
+        </ToDoContent>
       </ToDoContainer>
     </Container>
   );

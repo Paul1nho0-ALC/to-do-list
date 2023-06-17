@@ -1,8 +1,8 @@
-import { ListIcon } from '../../icons/listIcon';
+import { ListIcon } from '../../icons/List-Icon';
 import styled from 'styled-components';
 
 const HeaderDiv = styled.div`
-    padding: 32px 64px;
+    padding: 16px 64px;
     background-color: var(--primary-color);
     display: flex;
     align-items: center; 
@@ -13,7 +13,7 @@ const HeaderDiv = styled.div`
 const Logo = styled.h1`
 color: #ffffff;
 font-weight: 700;
-font-size: 48px;
+font-size: 32px;
 `;
 
 export const Header = () => {

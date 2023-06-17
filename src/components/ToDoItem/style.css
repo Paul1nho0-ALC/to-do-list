@@ -1,0 +1,7 @@
+.complete{
+    background-color: var(--secondary-color);
+}
+
+.uncomplete{
+    background-color: var(--background-color);
+}

@@ -6,10 +6,11 @@ const Container = styled.main`
     min-height: 400px;
     max-width: 640px;
     display: flex;
-    margin: 128px auto 0 auto;
-    align-items: start;
-    padding: 48px 32px;
     justify-content: start;
+    align-items: start;
+    flex-direction: column;
+    margin: 128px auto 0 auto;
+    padding: 48px 32px;
     background-color: #ffffff; 
     border-radius: 8px;
     box-shadow: 10px 10px 10px rgba(0, 0, 0, 0.1);
