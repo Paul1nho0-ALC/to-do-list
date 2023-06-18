@@ -8,6 +8,7 @@ const HeaderDiv = styled.div`
     align-items: center; 
     justify-content: start;
     gap: 32px;
+    
 `;
 
 const Logo = styled.h1`
