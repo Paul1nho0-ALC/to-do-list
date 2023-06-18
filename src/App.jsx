@@ -12,7 +12,6 @@ import { useLocalStorage } from './hooks/useLocalStorage';
 const Container = styled.div`
   background-color: var(--background-color) ;
   min-height: 100vh;
-  min-width: 100vh;
   padding-bottom: 64px;
 `;
 

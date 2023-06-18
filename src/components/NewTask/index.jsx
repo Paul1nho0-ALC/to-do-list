@@ -21,6 +21,10 @@ const TextInput = styled.input`
   background-color: var(--background-color);
   padding: 24px;
   border-radius: 16px;
+
+  @media screen and (max-width: 720px) {
+    width: 200px;
+  }
 `;
 
 const AddButton = styled.button`
