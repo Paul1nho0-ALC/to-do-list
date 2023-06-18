@@ -5,10 +5,6 @@ const Content = styled.div`
     padding-right: 96px;
     margin-top: 64px;
     width: 100%;
-
-    @media screen and (max-width: 720px) {
-     padding-right: 16px 
-    }
 `;
 
 export const ToDoContent = ({ children }) => {

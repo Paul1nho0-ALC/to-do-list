@@ -15,6 +15,7 @@ const Item = styled.div`
     align-items: center;
     justify-content: space-between;
     margin-bottom: 16px;
+    word-break: break-all;
 `;
 
 const Group = styled.div`
@@ -32,9 +33,10 @@ const DeleteButton = styled.button`
     cursor: pointer;
   `;
 
-const ItemDesciption = styled.p`
+const ItemDesciption = styled.span`
     font-size: 16px;
     font-weight: 700;
+    max-width: 200px;
   `;
 
 export const ToDoItem = ({ id, text, remove, update }) => {

@@ -23,7 +23,7 @@ const TextInput = styled.input`
   border-radius: 16px;
 
   @media screen and (max-width: 720px) {
-    width: 200px;
+    width: 240px;
   }
 `;
 
