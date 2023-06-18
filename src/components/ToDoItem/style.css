@@ -7,7 +7,7 @@
 }
 
 .uncomplete{
-    background-color: var(--background-color);
+    background-color: var(--pending-color);
 }
 
 .uncomplete p{
