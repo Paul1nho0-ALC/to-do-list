@@ -1,0 +1,7 @@
+.checked{
+    background-color: var(--tertiary-color);
+}
+
+.unchecked{
+    background-color: #f2f2f2;
+}
