@@ -1,15 +1,15 @@
-.complete{
+.complete {
     background-color: var(--secondary-color);
 }
 
-.complete p {
-    color: #ffffff
+.complete span {
+    color: #ffffff;
 }
 
-.uncomplete{
+.uncomplete {
     background-color: var(--pending-color);
 }
 
-.uncomplete p{
+.uncomplete span {
     color: #202020;
 }

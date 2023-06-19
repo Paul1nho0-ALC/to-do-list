@@ -9,7 +9,7 @@ export const CheckIcon = () => {
     >
       <path
         d="M1 2.5L5 7.5L10.5 1"
-        stroke="white"
+        stroke="black"
         strokeWidth="2"
         strokeLinecap="round"
       />

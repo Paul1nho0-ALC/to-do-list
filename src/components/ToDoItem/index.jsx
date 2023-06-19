@@ -15,7 +15,7 @@ const Item = styled.div`
     align-items: center;
     justify-content: space-between;
     margin-bottom: 16px;
-    word-break: break-all;
+    word-break: keep-all;
 `;
 
 const Group = styled.div`

@@ -1,7 +1,6 @@
 import styled from 'styled-components';
 import { CheckIcon } from '../../icons/Check-Icon';
 import P from 'prop-types';
-import './style.css';
 
 const MyCheckbox = styled.div`
     min-width: 24px;
@@ -17,12 +16,11 @@ const MyCheckbox = styled.div`
 export const Checkbox = (props) => {
   return (
     <MyCheckbox
-      className={props.isChecked ? 'checked' : ''}
       onClick={() => {
         props.handleClick(props.isChecked);
       }}
     >
-      {props.isChecked ? <CheckIcon /> : null}
+      {props.isChecked ? <CheckIcon /> : ''}
     </MyCheckbox>
   );
 };

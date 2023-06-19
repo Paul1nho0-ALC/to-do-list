@@ -25,7 +25,7 @@ export const App = () => {
   useEffect(() => {
     WebFont.load({
       google: {
-        families: ['Montserrat:400,700'],
+        families: ['Poppins:400,700'],
       },
     });
   }, []);
